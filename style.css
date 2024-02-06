@@ -1,0 +1,169 @@
+body {
+    background-color: #272727;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: -2;
+}
+
+/* Used to adjust all the stuff in the nav-icons div section */
+.nav-icons {
+    display: flex;
+    height: 80px;
+    width: 550px;
+    align-items: center;
+    margin: 0 -10px;
+    padding: 0px;
+    position: relative;
+    left: 550px;
+    /* border: 2px solid #c74343; */
+}
+
+/* To adjust the shopingcart icon */
+.shoppingcart {
+    /* border: 2px solid #fff; */
+    transform: scale(0.09);
+    position: relative;
+    left: 150px;
+    /* Add some spacing between the shopping cart and user profile */
+}
+
+.shoppingcart:hover {
+    transform: scale(0.1);
+}
+
+.user-profile {
+    /* You can style the user profile container here */
+}
+
+.user-profile .profile-circle {
+    background-color: #fff;
+    /* border: 2px solid #ff0a0a; */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* Main logo of the website displayed on nav bar left corner */
+.Mainlogo h2 {
+    color: white;
+    /* font-family: 'Inter', sans-serif;
+    margin: 0 20px;
+    height: 80px;
+    overflow: hidden;
+    width: 800px;
+    position: relative;
+    bottom: 1070px;
+    font-size: 30px;
+    text-decoration: none; */
+    /* border: 2px solid #0033ff; */
+    width: 190px;
+    font-size: 50px;
+    position: relative;
+    bottom: 1065px;
+    left: 100px;
+    text-decoration: bold;
+}
+
+.Mainlogo img {
+    transform: scale(0.07);
+    /* border: 2px solid white; */
+    position: relative;
+    bottom: 470px;
+    right: 450px;
+}
+
+.Mainlogo {
+    /* border: 2px solid white; */
+    width: 400px;
+    height: 85px;
+}
+
+/* General nav bar styling  */
+nav {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    background-color: #000000;
+    color: #886d6d;
+    height: 75px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    /* Adjust this font size if needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #ffffff; */
+}
+
+/* Styling for hyperlinks in the nav bar div */
+nav a {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin: 0 50px;
+    font-size: 25px;
+    text-decoration: none;
+    /* border: 2px solid #ffffff; */
+    position: relative;
+    right: 500px;
+    white-space: nowrap;
+
+}
+
+/* Styling for when the cursor hovers hyperlinks in the nav bar */
+nav a:hover {
+    color: #C6922B;
+    transform: scale(1.1);
+    /* Make the text a bit bigger on hover */
+}
+
+/* __________________________________________________________________________ */
+/* For customizing the intial covers that come up on the home page  */
+.homecovers {
+    justify-content: center;
+    display: flex;
+    width: 1400px;
+    position: relative;
+    border-radius: 20px;
+    left: 50px;
+    transform: scaleX(0.9);
+    align-items: center;
+    overflow: hidden;
+    /* Add a higher z-index to ensure the content is above the black box */
+    z-index: 1;
+}
+
+/* Creates a black box behind the home cover element with the same height as the parent  */
+.box {
+    content: "";
+    position: absolute;
+    background-color: #e00000;
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+/* __________________________________________________________________________ */
+/* For customizing Everything under the trending section in the home page.  */
+
+.Trending img {
+    transform: scale(0.2);
+    border: 5px solid #fff;
+    position: relative;
+    left: 950px;
+    bottom: 150px;
+}
+
+.Trending h2 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    border: 2px solid #fff;
+    width: 110px;
+    position: relative;
+    top: 10px;
+    left: 100px;
